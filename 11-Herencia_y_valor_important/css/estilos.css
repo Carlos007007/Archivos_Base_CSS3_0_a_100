@@ -1,0 +1,11 @@
+@import url('normalize.css');
+div{
+	color: blue !important;
+	font-size: 19px;
+}
+#ejemplo{
+	color: black;
+}
+span{
+	color: red;
+}
