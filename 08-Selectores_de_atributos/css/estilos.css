@@ -1,0 +1,24 @@
+@import url('normalize.css');
+
+.rojo{
+	color: red;
+}
+.verde{
+	color: green;
+}
+input[type]{
+	width: 100%;
+}
+p[class]{
+	font-size: 19px;
+}
+p[class="verde"]{
+	background-color: lightblue;
+}
+p[class~="rojo"]{
+	background-color: orange;
+}
+li[lang|="es"]{
+	color: blue;
+	font-size: 20px;
+}

@@ -1,0 +1,20 @@
+@import url('normalize.css');
+
+p{
+	color: blue;
+	background-color: orange;
+}
+#p1{
+	color: #fff;
+}
+#p2{
+	color: #333;
+}
+#div{
+	background-color: lightblue;
+	padding: 10px;
+}
+#div p{
+	background-color: #333;
+	color: #fff;
+}
