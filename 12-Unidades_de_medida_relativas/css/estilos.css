@@ -1,0 +1,23 @@
+@import url('normalize.css');
+body{
+	padding: 30px;
+	font-size: 16px;
+}
+.em{
+	font-size: 2em;
+}
+.ex{
+	font-size: 4ex;
+}
+.px{
+	font-size: 20px;
+}
+div{
+	font-size: 2em;
+}
+.em2{
+	font-size: 2em;
+}
+.rem{
+	font-size: 3rem;
+}

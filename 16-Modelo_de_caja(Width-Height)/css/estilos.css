@@ -1,0 +1,16 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+div{
+	width: 90%;
+	max-width: 500px;
+	min-width: 400px;
+	height: 80%;
+	max-height: 300px;
+	min-height: 200px;
+	background-color: lightblue;
+}

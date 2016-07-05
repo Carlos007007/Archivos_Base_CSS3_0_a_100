@@ -1,0 +1,19 @@
+@import url('normalize.css');
+body{
+	padding: 30px;
+}
+.in{
+	font-size: 1in;
+}
+.cm{
+	font-size: 1cm;
+}
+.mm{
+	font-size: 7mm;
+}
+.pt{
+	font-size: 10pt;
+}
+.pc{
+	font-size: 2pc;
+}
