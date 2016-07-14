@@ -1,0 +1,19 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+div{
+	width: 30%;
+	height: 70px;
+}
+.caja1{
+	background-color: blue;
+	/*margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 15px;*/
+	margin: 0 auto;
+}
