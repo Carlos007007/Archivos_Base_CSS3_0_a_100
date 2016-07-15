@@ -1,0 +1,32 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+/*
+== Sintaxis ==
+Propiedad: width style color;
+
+== Estilos de borde ==
+dashed
+dotted
+double
+solid
+*/
+
+.caja1{
+	width: 30%;
+	background-color: #E1E1E1;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 17px;
+	text-align: center;
+	/*border-top: 2px dashed blue;
+	border-right: 5px dotted red;
+	border-bottom: 3px double black;
+	border-left: 6px solid green;*/
+	border: 7px double blue;
+}
