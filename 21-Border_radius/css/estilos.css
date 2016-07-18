@@ -1,0 +1,27 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.caja{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: blue;
+	/*border-top-left-radius: 40px;
+	border-top-right-radius: 8%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 50px;*/
+	border-radius: 10px 30px 50px 80px;
+}
+img{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
+	border-radius: 50px;
+}

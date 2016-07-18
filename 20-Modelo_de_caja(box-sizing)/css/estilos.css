@@ -1,0 +1,42 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.caja1{
+	width: 500px;
+	height: 70px;
+	padding: 10px;
+	border: 10px solid black;
+	background-color: #E1E1E1;
+	box-sizing: border-box;
+}
+.row{
+	margin: 10px 0;
+	padding: 0 0 10px 0;
+	width: 100%;
+	background-color: #ccc;
+}
+.clearfix{
+	clear: both;
+}
+.modelo-clasico{
+	float: left;
+	width: 33.33%;
+	padding: 1px;
+	border: 0;
+	margin: 0;
+	background-color: #cf0;
+	box-sizing: content-box;
+}
+.modelo-nuevo{
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+	border: 0;
+	margin: 0;
+	background-color: #cf0;
+	box-sizing: border-box;
+}
