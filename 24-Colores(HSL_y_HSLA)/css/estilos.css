@@ -1,0 +1,31 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-image: url(../img/blue_background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/*
+	=== HSL ===
+	=> Sintaxis  hsl(0,0%,0%);
+	=> Rango (Hue=tono) 0-360
+	=> Rango (Saturation=Saturación) 0%-100%
+	=> Rango (Lightness=Brillo) 0%-100%
+
+	=== HSLA ===
+	=> Sintaxis  hsla(0,0%,0%,0.5);
+	=> Rango (Hue=tono) 0-255
+	=> Rango (Saturation=Saturación) 0%-100%
+	=> Rango (Lightness=Brillo) 0%-100%
+	=> Rango (Alpha) 0-1
+*/
+.caja{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	background-color: hsla(231,88%,24%,.5);
+}

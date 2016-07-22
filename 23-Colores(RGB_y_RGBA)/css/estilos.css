@@ -1,0 +1,35 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-image: url(../img/blue_background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/*
+	=== RGB Decimal ===
+	=> Sintaxis  rgb(0,0,0);
+	=> Rango 0-255
+	
+	=== RGB Porcentual ===
+	=> Sintaxis  rgb(0%,0%,0%);
+	=> Rango 0%-100%
+
+	=== RGB Hexadecimal ===
+	=> Sintaxis #FFFFFF
+
+	=== RGBA ===
+	=> Sintaxis  rgba(0,0,0,0.5);
+	=> Rango (colores) 0-255
+	=> Rango (Alpha) 0-1
+*/
+.caja{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgba(189,183,107,.7);
+	color: #F00;
+}

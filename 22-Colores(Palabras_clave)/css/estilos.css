@@ -1,0 +1,15 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.caja{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: chocolate;
+	color: cyan;
+}
