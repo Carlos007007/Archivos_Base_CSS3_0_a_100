@@ -1,0 +1,13 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	/*background-color: rgb(0,255,0);
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top right;*/
+	background: rgb(0,255,0) url(../img/icono.png) repeat-y fixed center center;
+}

@@ -1,0 +1,10 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-image: url(../img/icono.png),url(../img/icono2.png), url(../img/icono3.png), url(../img/fondo.jpg);
+	background-repeat: no-repeat, no-repeat, repeat-y, no-repeat;
+	background-position: top left, top right, center center, center center;
+}
