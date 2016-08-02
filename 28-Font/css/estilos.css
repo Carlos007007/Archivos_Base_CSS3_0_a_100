@@ -1,0 +1,38 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative; 
+}
+/*
+=== font-style ===
+normal italic oblique
+
+=== font-variant ===
+normal small-caps
+
+=== font-weight ===
+normal bold bolder lighter
+100-900
+
+=== font-size ===
+Unidad de medida px em ex rem cm pc pt...
+
+=== line-height ===
+normal (Unidad de medida px em ex rem cm pc pt...)
+
+=== font-family === 
+Arial, Helvetica, Verdana, Georgia, Cambria, Times
+*/
+.texto1{
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: verdana;
+}
+.texto2{
+	font: normal small-caps 700 25px/1.5 georgia;
+}
