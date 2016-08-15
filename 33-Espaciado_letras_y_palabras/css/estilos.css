@@ -1,0 +1,20 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	word-spacing = Hacer espaciado entre palabras
+
+	letter-spacing = Hacer espaciados entre letras
+*/
+.texto{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 70px;
+	border: 1px solid #E1E1E1;
+	font-size: 27px;
+	text-align: justify;  
+}
