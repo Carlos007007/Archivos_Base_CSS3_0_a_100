@@ -1,0 +1,33 @@
+@import url('normalize.css');
+@font-face {
+    font-family: 'lakki_reddyregular';
+    src: url('../fonts/lakkireddy-regular-webfont.eot');
+    src: url('../fonts/lakkireddy-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lakkireddy-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lakkireddy-regular-webfont.woff') format('woff'),
+         url('../fonts/lakkireddy-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lakkireddy-regular-webfont.svg#lakki_reddyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+.texto{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 70px;
+	border: 1px solid #E1E1E1;
+	font-size: 27px;
+	text-align: justify;  
+}
+.parrafo1{
+	font-family: 'Denk One', sans-serif;
+}
+.parrafo2{
+	font-family: 'lakki_reddyregular';
+}
