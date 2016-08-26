@@ -1,0 +1,28 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	=== text-shadow ===
+	offset-x | offset-y | blur-radius | color 
+
+	=== box-shadow ===
+	offset-x | offset-y | blur-radius | spread-radius| color | inset
+*/
+h1{
+	text-align: center;
+	font-size: 40px;
+	color:  gray;
+	text-shadow: -3px -4px 7px blue, 2px 2px 7px red;
+}
+.caja{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 70px;
+	border: 1px solid #E1E1E1;
+	box-shadow: 3px 2px 5px 7px red inset, 4px 4px 8px blue;
+}
