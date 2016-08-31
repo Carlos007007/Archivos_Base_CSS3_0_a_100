@@ -1,0 +1,28 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	=== display ===
+	block  |  inline  |  inline-block  |  none  |  table  |  table-row  |  table-cell 
+*/
+.caja{
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #E1E1E1;
+	width: 100px;
+	display: none;
+}
+.tabla{
+	display: table;
+	width: 100%;
+}
+.fila{
+	display: table-row;
+}
+.celda{
+	display: table-cell;
+}

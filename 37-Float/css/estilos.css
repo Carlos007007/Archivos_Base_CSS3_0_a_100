@@ -1,0 +1,24 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	=== float ===
+  	none  |  left  |  right 
+
+  	=== clear ===
+  	left  |  right  |  both
+*/
+.caja{
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #E1E1E1;
+	width: 300px;
+	float: right;
+}
+#div{
+	clear: both;
+}

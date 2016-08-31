@@ -1,12 +1,12 @@
 @import url('normalize.css');
-
-h1.titulo{
-	color: blue;
-	font-size: 16px;
-}
 .ejemplo{
-	color: red;
+	background-color: blue;
+	color: #fff;
+	height: 50px;
 }
-.ejemplo2 p{
-	color: #333;
+h3.ejemplo{
+	color: yellow;
+}
+.ejemplo p{
+	color: red;
 }
