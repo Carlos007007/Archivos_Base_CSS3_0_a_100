@@ -1,0 +1,40 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	height: 1000px;  
+}
+/*
+	=== position ===
+  	static  |  relative  |  absolute  |  fixed 
+
+	top: unidad;
+	bottom: unidad;
+	left: unidad;
+	right: unidad;
+
+  	z-index: numero;
+*/
+.padre{
+	width: 500px;
+	height: 500px;
+	border: 3px solid #333;
+	margin: 0 auto;
+	margin-top: 60px;
+	position: relative;
+}
+.hijo{
+	width: 100px;
+	height: 100px;
+	border: 3px solid #333;
+	background-color: lightblue;
+	position: fixed;
+}
+#hijo1{
+	left: 20px;
+	top: 20px;
+	background-color: red;
+	z-index: 2;
+}
