@@ -1,0 +1,30 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	Overflow Controla el comportamiento de los contenidos que no caben en 
+	su elemento contenedor
+
+	=== overflow ===
+  	visible  |  hidden  | scroll
+
+  	=== overflow-y ===
+  	visible  |  hidden  | scroll
+
+  	=== overflow-x ===
+  	visible  |  hidden  | scroll
+*/
+.caja{
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	border: 2px solid #333;
+	margin: 0 auto;
+	margin-top: 60px;
+	position: relative;
+	overflow-y: hidden;
+}
