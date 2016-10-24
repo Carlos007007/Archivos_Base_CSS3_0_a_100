@@ -1,0 +1,18 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	==== user-select ====
+	auto | none
+*/
+.parrafo{
+	font-size: 27px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+}
