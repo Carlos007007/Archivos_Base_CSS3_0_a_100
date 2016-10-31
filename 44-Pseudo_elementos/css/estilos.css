@@ -1,0 +1,48 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	Se añaden a los selectores y nos permiten añadir 
+	estilos a una parte concreta de los elementos html
+
+	== selector::first-line ==
+	Selecciona la primera linea de un parrafo
+
+	== selector::first-letter ==
+	Selecciona la primera letra de un parrafo
+
+	== selector::before ==
+	Selecciona la parte anterior del elemento
+
+	== selector::after ==
+	Selecciona la parte posterior del elemento
+
+	== selector::selection ==
+	Selecciona el texto que ha seleccionado el usuario
+*/
+.parrafo{
+	font-size: 27px;
+}
+.parrafo::first-line{
+	color: red;
+	font-size: 19px;
+}
+.parrafo::first-letter{
+	color: blue;
+	font-size: 50px;
+}
+.parrafo::before{
+	content: "Antes";
+	border: 2px solid #000;
+}
+.parrafo::after{
+	content: "Despues";
+}
+.parrafo::selection{
+	color: yellow;
+	background-color: #000;
+}
