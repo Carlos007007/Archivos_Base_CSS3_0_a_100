@@ -1,0 +1,38 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*	
+	=======HIJOS=======
+	== selector:first-child  ==
+	Selecciona el primer elemento hijo de un elemento
+
+	== selector:last-child  ==
+	Selecciona el último elemento hijo de un elemento
+
+	=======TIPOS=======
+	== selector:first-of-type  ==
+	Selecciona el primer elemento del mismo tipo
+
+	== selector:last-of-type  ==
+	Selecciona el último elemento del mismo tipo
+*/
+ul li:first-child{
+	background-color: red;
+	color: #fff;
+}
+ul li:last-child{
+	background-color: #000;
+	color: #fff;
+}
+div:first-of-type{
+	background-color: blue;
+	color: #fff;
+}
+div:last-of-type{
+	background-color: yellow;
+	color: #000;
+}
