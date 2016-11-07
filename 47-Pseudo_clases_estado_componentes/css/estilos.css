@@ -1,0 +1,27 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	== selector:enabled  ==
+	Cuando el elemento se encuentra habilidado
+
+	== selector:disabled  ==
+	Cuando el elemento se encuentra deshabilitado
+
+	== selector:checked  ==
+	Cuando el elemento se encuentra marcado
+*/
+input[type="text"]:enabled{
+	color: green;
+}
+input[type="text"]:disabled{
+	height: 10px;
+}
+input[type="checkbox"]:checked + label{
+	color: green;
+	font-size: 10px;
+}
