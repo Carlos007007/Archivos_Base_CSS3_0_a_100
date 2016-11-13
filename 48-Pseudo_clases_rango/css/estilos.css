@@ -1,0 +1,27 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	== selector:in-range  ==
+	Cuando el elemento se encuentra en el rango
+
+	== selector:out-of-range  ==
+	Cuando el elemento se encuentra fuera del rango
+*/
+input[type="number"]{
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+}
+input[type="number"]:in-range{
+	background-color: blue;
+	color: #fff;
+}
+input[type="number"]:out-of-range{
+	background-color: red;
+	color: #fff;
+}
