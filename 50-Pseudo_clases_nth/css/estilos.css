@@ -1,0 +1,21 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	selector:nth-child()
+	selector:nth-last-child()
+
+	== Valores ==
+	even -> pares
+	odd -> nones (impares)
+	an+b -> Podemos definir un número n cantidad de veces
+
+*/
+table tbody tr:nth-child(-n+3){
+	background-color: blue;
+	color: #fff;
+}

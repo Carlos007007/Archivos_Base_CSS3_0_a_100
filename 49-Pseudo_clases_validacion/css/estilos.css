@@ -1,0 +1,38 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+form{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 300px;
+	margin-top: 30px;
+}
+/*
+	== selector:required ==
+	Cuando el input es requerido
+
+	== selector:valid ==
+	Cuando el formato del input es válido
+
+	== selector:invalid ==
+	Cuando el formato del input es invalido
+*/
+.input-form{
+	display: block;
+	width: 100%;
+	margin: 3px auto;
+}
+input:required{
+	background-color: red;
+}
+input:valid{
+	background-color: blue;
+}
+input:invalid{
+	background-color: darkred;
+	color: #fff;
+}
