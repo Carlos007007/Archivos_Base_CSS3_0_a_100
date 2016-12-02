@@ -1,0 +1,57 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+/*
+	== transition-property ==
+	Especifica el nombre o nombres de las propiedades CSS a las que 
+	deberían aplicarse las transiciones
+
+	== transition-duration ==
+	Especifica la duración en la que sucederán las transiciones
+
+	== transition-timing-function ==
+	Especifica la curva cúbica bézier que se usa para definir cómo 
+	se computan los valores intermedios para las propiedades.
+	(linear, ease, ease-in, ease-out, ease-in-out)
+
+	== transition-delay ==
+	Define el tiempo de espera entre el momento en que se cambia una 
+	propiedad y el inicio de la transición.
+
+*/
+.caja{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 0 auto;
+	transition: all 2s ease-in;
+}
+.caja:hover{
+	background-color: darkred;
+}
+form{
+	margin: 0 auto;
+	width: 400px;
+	padding: 15px;
+	margin-top: 27px;
+}
+form input{
+	width: 100%;
+	display: block;
+	margin: 10px 0;
+	transition: all 4s ease;
+}
+form input:focus{
+	outline: none;
+	border: 2px solid blue;
+}
+form button{
+	display: block;
+	width: 100%;
+	background-color: green;
+	color: #fff;
+}
