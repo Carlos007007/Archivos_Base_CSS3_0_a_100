@@ -1,0 +1,39 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+#imagen{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+	transition: all .3s ease-in-out;
+}
+#imagen:hover{
+	-webkit-transform: rotateZ(0.5turn);
+	-moz-transform: rotateZ(0.5turn);
+	-ms-transform: rotateZ(0.5turn);
+	transform: rotateZ(0.5turn);
+	transform-origin: -20px 10px;
+}
+/*	
+	-> 2D
+	=== transform: rotate() ===
+
+	-> 3D
+	=== transform: rotateX() ===
+	=== transform: rotateY() ===
+	=== transform: rotateZ() ===
+
+	deg -> grados
+	turn -> giros 0-1
+	grad -> gradianes
+	rad -> radianes
+
+	=== transform-origin: x y ===
+	Palabras clave -> right, left, top, bottom, center
+	Unidades de medida -> px, em, rem...etc
+*/
