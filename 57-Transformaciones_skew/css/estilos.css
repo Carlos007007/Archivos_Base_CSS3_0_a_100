@@ -1,0 +1,35 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+#imagen{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: block;
+	transition: all .3s ease-in-out;
+}
+#imagen:hover{
+	-webkit-transform: skewY(15deg);
+	-moz-transform: skewY(15deg);
+	-ms-transform: skewY(15deg);
+	transform: skewY(15deg);
+}
+/*
+	=== transform: skew(X, Y) ===
+	=== transform: skewX(x) ===
+	=== transform: skewY(y) ===
+
+	deg -> grados
+
+	Si se utiliza la transformacion en un angulo de 90 grados
+	no se vera el elemento.
+
+	=== transform-origin: x y ===
+	Palabras clave -> right, left, top, bottom, center
+	Unidades de medida -> px, em, rem...etc
+*/
