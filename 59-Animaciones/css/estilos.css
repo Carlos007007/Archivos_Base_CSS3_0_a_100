@@ -1,0 +1,123 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+.caja{
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+	animation: div 4s ease infinite alternate;
+	-webkit-animation: div 4s ease infinite alternate;
+	-moz-animation: div 4s ease infinite alternate;
+	-ms-animation: div 4s ease infinite alternate;
+	animation-play-state: running;
+
+}
+@-webkit-keyframes div{
+	0%{
+		transform: translateY(0);
+		background-color: #000;
+	}
+	25%{
+		transform: translateY(100px);
+		background-color: yellow;
+	}
+	75%{
+		transform: translateX(200px);
+		background-color: red;
+	}
+	100%{
+		transform: translateY(-50px);
+		background-color: blue;
+		border-radius: 100%;
+	}
+}
+@-moz-keyframes div{
+	0%{
+		transform: translateY(0);
+		background-color: #000;
+	}
+	25%{
+		transform: translateY(100px);
+		background-color: yellow;
+	}
+	75%{
+		transform: translateX(200px);
+		background-color: red;
+	}
+	100%{
+		transform: translateY(-50px);
+		background-color: blue;
+		border-radius: 100%;
+	}
+}
+@-ms-keyframes div{
+	0%{
+		transform: translateY(0);
+		background-color: #000;
+	}
+	25%{
+		transform: translateY(100px);
+		background-color: yellow;
+	}
+	75%{
+		transform: translateX(200px);
+		background-color: red;
+	}
+	100%{
+		transform: translateY(-50px);
+		background-color: blue;
+		border-radius: 100%;
+	}
+}
+@keyframes div{
+	0%{
+		transform: translateY(0);
+		background-color: #000;
+	}
+	25%{
+		transform: translateY(100px);
+		background-color: yellow;
+	}
+	75%{
+		transform: translateX(200px);
+		background-color: red;
+	}
+	100%{
+		transform: translateY(-50px);
+		background-color: blue;
+		border-radius: 100%;
+	}
+}
+/*
+	=== KEYFRAMES ===
+	-> Dos etapas (normal)
+	@-prefijo-keyframes nombre{
+		from{Valor inicial}
+		to{Valor final}
+	}
+	
+	-> Multiples etapas (porcentajes)
+	@-prefijo-keyframes nombre{
+		0%{ Valores }
+		25%{ Valores }
+		75%{ Valores }
+		100%{ Valores }
+	}
+
+	=== PROPIEDADES ===
+	-> animation-name: nombre;
+	-> animation-duration: 0s;
+	-> animation-timing-function: (linear, ease, ease-in, ease-out, ease-in-out);
+	-> animation-delay: 0s;
+	-> animation-iteration-count: 1; (infinite)
+	-> animation-direction: (normal, reverse, alternate, alternate-reverse);
+
+	=== NOTACION ACORTADA ===
+	animation: nombre | duration | timing | delay | iteration | direction;
+
+	-> animation-play-state(paused, running);
+*/
