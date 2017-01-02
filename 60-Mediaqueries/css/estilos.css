@@ -1,0 +1,30 @@
+@import url('normalize.css');
+body, 
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;  
+}
+.caja{
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+}
+@media (max-width: 600px){
+	.caja{
+		background-color: blue;
+		width: 90%;
+	}
+}
+@media (min-width: 601px) and (max-width: 900px){
+	.caja{
+		background-color: yellow;
+		width: 50%;
+	}
+}
+@media (min-width: 901px){
+	.caja{
+		background-color: silver;
+		width: 70%;
+	}
+}
